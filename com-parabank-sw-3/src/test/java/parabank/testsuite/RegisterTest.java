@@ -10,7 +10,7 @@ public class RegisterTest extends TestBase {
     HomePage homePage = new HomePage();
     RegisterPage registerPage = new RegisterPage();
 
-    @Test (groups = "smoke")
+    @Test (groups = {"smoke"})
     public void verifyThatSigningUpPageDisplay() {
         homePage.clickOnRegisterLink();
         verifyText("Signing up is easy!", By.cssSelector("div[id='rightPanel']>h1"));

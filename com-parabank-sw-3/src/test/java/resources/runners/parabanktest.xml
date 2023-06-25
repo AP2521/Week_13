@@ -2,8 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="testsuite" verbose="1">
 
-    <test name="login Test">
+    <test name="Parabank Test">
         <classes>
+            <class name="parabank.testsuite.RegisterTest"></class>
             <class name="parabank.testsuite.LoginTest"></class>
         </classes>
     </test>

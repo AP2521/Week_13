@@ -6,7 +6,7 @@
             <include name="sanity"></include>
         </run>
     </groups>
-    <test name="Sanity Test">
+    <test name="LoginTest">
         <classes>
           <class name="parabank.testsuite.LoginTest"></class>
           <class name="parabank.testsuite.RegisterTest"></class>
