@@ -10,13 +10,14 @@ public class DesktopTest extends TestBase {
     ProductPageandOrder productPageandOrder = new ProductPageandOrder();
 
     @Test
-    public void desktopTest () {
+    public void desktopTest () throws InterruptedException {
         topMenuPage.selectMenu("Desktops","Show AllDesktops");
         productPageandOrder.setSortBy("Name (A - Z)");
         productPageandOrder.selectProduct("HP LP3065");
         productPageandOrder.verifyProductText("HP LP3065");
         productPageandOrder.selectDeliverDate("2022-11-30");
         productPageandOrder.enterQuantity("1");
+        Thread.sleep(2000);
         productPageandOrder.AddtoCart();
         productPageandOrder.clickonShoppingCart();
         productPageandOrder.verifyProductTextinCart("HP LP3065");

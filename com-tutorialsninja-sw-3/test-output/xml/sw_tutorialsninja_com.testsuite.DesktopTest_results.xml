@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TutorialNinja Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="27.166">
+  <properties />
+  
+  
+            <testcase name="desktopTest" time="27.166" classname="sw_tutorialsninja_com.testsuite.DesktopTest" />
+      
+</testsuite>
