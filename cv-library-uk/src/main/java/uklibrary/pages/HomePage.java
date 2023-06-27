@@ -26,6 +26,7 @@ public class HomePage extends Utility {
    }
    public void selectDistance(String distance){
        selectByVisibleTextFromDropDown(Distance,distance);
+
    }
    public void clickOnMoreSearchOptionLink(){
        clickOnElement(MoreSearchOption);

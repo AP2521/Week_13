@@ -12,14 +12,11 @@ public class TestData {
 
         Object[][] data = new Object[][]{
 
-                {"jobTitle", "Tester"},
-                {"location", "Harrow"},
-                {"distance", "up to 5 miles"},
-                {"salaryMin","30000"},
-                {"salaryMax","500000"},
-                {"salaryType","Per annum"},
-                {"jobType","Permanent"},
-                {"result","Permanent Tester jobs in Harrow"}
+                { "Tester","Harrow", "5 miles","30000",
+                "500000",
+                "Per annum",
+                "Permanent",
+                "Permanent Tester jobs in Harrow"}
         };
         return data;
     }
