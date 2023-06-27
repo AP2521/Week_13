@@ -17,7 +17,7 @@ public class HomePage extends Utility {
         clickOnElement(loginLink);
     }
     public void clickOnRegisterLink(){
-        //Reporter.log("Click on Register Link" +registerLink.toString()+"<br>");
+        Reporter.log("Click on Register Link" +registerLink.toString()+"<br>");
         clickOnElement(registerLink);
 
     }

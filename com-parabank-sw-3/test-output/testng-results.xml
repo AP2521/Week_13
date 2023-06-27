@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on Register LinkBy.linkText: Register<br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter FristNameAnish]]>
+    </line>
+    <line>
+      <![CDATA[Enter Last Namepatel]]>
+    </line>
+    <line>
+      <![CDATA[Enter AddressStreet123phx]]>
+    </line>
+    <line>
+      <![CDATA[Enter addressCityPhoenix]]>
+    </line>
+    <line>
+      <![CDATA[Enter addressStateAZ]]>
+    </line>
+    <line>
+      <![CDATA[Enter addressZipcode85035]]>
+    </line>
+    <line>
+      <![CDATA[Enter phoneNumber123456789]]>
+    </line>
+    <line>
+      <![CDATA[Enter ssn12345678]]>
+    </line>
+    <line>
+      <![CDATA[Enter Usernameab13345]]>
+    </line>
+    <line>
+      <![CDATA[Enter passwordab133]]>
+    </line>
+    <line>
+      <![CDATA[Enter confirmPasswordab133]]>
+    </line>
+    <line>
+      <![CDATA[Click on Register LinkBy.linkText: Register<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="29634" started-at="2023-06-27T15:05:14 MST" finished-at="2023-06-27T15:05:43 MST">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.userShouldLogOutSuccessfully()[pri:0, instance:parabank.testsuite.LoginTest@704921a5]" name="userShouldLogOutSuccessfully" class="parabank.testsuite.LoginTest"/>
+        <method signature="RegisterTest.userSholdRegisterAccountSuccessfully()[pri:0, instance:parabank.testsuite.RegisterTest@289d1c02]" name="userSholdRegisterAccountSuccessfully" class="parabank.testsuite.RegisterTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:parabank.testsuite.LoginTest@704921a5]" name="userShouldLoginSuccessfullyWithValidCredentials" class="parabank.testsuite.LoginTest"/>
+        <method signature="RegisterTest.verifyThatSigningUpPageDisplay()[pri:0, instance:parabank.testsuite.RegisterTest@289d1c02]" name="verifyThatSigningUpPageDisplay" class="parabank.testsuite.RegisterTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginTest.verifyTheErrorMessage()[pri:0, instance:parabank.testsuite.LoginTest@704921a5]" name="verifyTheErrorMessage" class="parabank.testsuite.LoginTest"/>
+        <method signature="RegisterTest.userSholdRegisterAccountSuccessfully()[pri:0, instance:parabank.testsuite.RegisterTest@289d1c02]" name="userSholdRegisterAccountSuccessfully" class="parabank.testsuite.RegisterTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Parabank Test" duration-ms="29634" started-at="2023-06-27T15:05:14 MST" finished-at="2023-06-27T15:05:43 MST">
+      <class name="parabank.testsuite.RegisterTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:parabank.testsuite.RegisterTest@289d1c02]" name="setUp" is-config="true" duration-ms="4801" started-at="2023-06-27T15:05:14 MST" finished-at="2023-06-27T15:05:19 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userSholdRegisterAccountSuccessfully()[pri:0, instance:parabank.testsuite.RegisterTest@289d1c02]" name="userSholdRegisterAccountSuccessfully" duration-ms="1367" started-at="2023-06-27T15:05:19 MST" finished-at="2023-06-27T15:05:20 MST">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Register LinkBy.linkText: Register<br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter FristNameAnish]]>
+            </line>
+            <line>
+              <![CDATA[Enter Last Namepatel]]>
+            </line>
+            <line>
+              <![CDATA[Enter AddressStreet123phx]]>
+            </line>
+            <line>
+              <![CDATA[Enter addressCityPhoenix]]>
+            </line>
+            <line>
+              <![CDATA[Enter addressStateAZ]]>
+            </line>
+            <line>
+              <![CDATA[Enter addressZipcode85035]]>
+            </line>
+            <line>
+              <![CDATA[Enter phoneNumber123456789]]>
+            </line>
+            <line>
+              <![CDATA[Enter ssn12345678]]>
+            </line>
+            <line>
+              <![CDATA[Enter Usernameab13345]]>
+            </line>
+            <line>
+              <![CDATA[Enter passwordab133]]>
+            </line>
+            <line>
+              <![CDATA[Enter confirmPasswordab133]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userSholdRegisterAccountSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:parabank.testsuite.RegisterTest@289d1c02]" name="tearDown" is-config="true" duration-ms="1199" started-at="2023-06-27T15:05:20 MST" finished-at="2023-06-27T15:05:21 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:parabank.testsuite.RegisterTest@289d1c02]" name="setUp" is-config="true" duration-ms="3663" started-at="2023-06-27T15:05:21 MST" finished-at="2023-06-27T15:05:25 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyThatSigningUpPageDisplay()[pri:0, instance:parabank.testsuite.RegisterTest@289d1c02]" name="verifyThatSigningUpPageDisplay" duration-ms="827" started-at="2023-06-27T15:05:25 MST" finished-at="2023-06-27T15:05:26 MST">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Register LinkBy.linkText: Register<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatSigningUpPageDisplay -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:parabank.testsuite.RegisterTest@289d1c02]" name="tearDown" is-config="true" duration-ms="1015" started-at="2023-06-27T15:05:26 MST" finished-at="2023-06-27T15:05:27 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- parabank.testsuite.RegisterTest -->
+      <class name="parabank.testsuite.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:parabank.testsuite.LoginTest@704921a5]" name="setUp" is-config="true" duration-ms="3266" started-at="2023-06-27T15:05:27 MST" finished-at="2023-06-27T15:05:30 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userShouldLogOutSuccessfully()[pri:0, instance:parabank.testsuite.LoginTest@704921a5]" name="userShouldLogOutSuccessfully" duration-ms="1407" started-at="2023-06-27T15:05:30 MST" finished-at="2023-06-27T15:05:32 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldLogOutSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:parabank.testsuite.LoginTest@704921a5]" name="tearDown" is-config="true" duration-ms="1058" started-at="2023-06-27T15:05:32 MST" finished-at="2023-06-27T15:05:33 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:parabank.testsuite.LoginTest@704921a5]" name="setUp" is-config="true" duration-ms="3158" started-at="2023-06-27T15:05:33 MST" finished-at="2023-06-27T15:05:36 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:parabank.testsuite.LoginTest@704921a5]" name="userShouldLoginSuccessfullyWithValidCredentials" duration-ms="592" started-at="2023-06-27T15:05:36 MST" finished-at="2023-06-27T15:05:36 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldLoginSuccessfullyWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:parabank.testsuite.LoginTest@704921a5]" name="tearDown" is-config="true" duration-ms="1070" started-at="2023-06-27T15:05:36 MST" finished-at="2023-06-27T15:05:37 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:parabank.testsuite.LoginTest@704921a5]" name="setUp" is-config="true" duration-ms="3994" started-at="2023-06-27T15:05:37 MST" finished-at="2023-06-27T15:05:41 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTheErrorMessage()[pri:0, instance:parabank.testsuite.LoginTest@704921a5]" name="verifyTheErrorMessage" duration-ms="861" started-at="2023-06-27T15:05:41 MST" finished-at="2023-06-27T15:05:42 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:parabank.testsuite.LoginTest@704921a5]" name="tearDown" is-config="true" duration-ms="972" started-at="2023-06-27T15:05:42 MST" finished-at="2023-06-27T15:05:43 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- parabank.testsuite.LoginTest -->
+    </test> <!-- Parabank Test -->
+  </suite> <!-- testsuite -->
+</testng-results>
